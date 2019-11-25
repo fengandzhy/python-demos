@@ -13,3 +13,5 @@ elif n==5:
 else : 
     print('n什么都不是')
 
+
+
