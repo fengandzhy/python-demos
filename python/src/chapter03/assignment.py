@@ -2,6 +2,7 @@
 Created on 2019年11月21日
 
 @author: Ellite Service
+赋值语句
 '''
 x,y = 1,2
 print(x)
