@@ -3,6 +3,7 @@ Created on 2019年12月5日
 
 @author: Ellite Service
 '''
+#exec 执行语句的
 codes = ""
 while True:
     code = input('>>>')
