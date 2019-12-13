@@ -12,3 +12,6 @@ print(min(number))
 array1=['2',3]
 # print(max(number))
 # print(min(number))
+
+
+
