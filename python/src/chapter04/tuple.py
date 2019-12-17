@@ -8,3 +8,15 @@ b=((2,)*20)
 print(a)
 print(b)
 
+alist = [1,2,3]
+blist = [4,5,6]
+print(alist+blist)
+
+atuple = (1,2,3)
+btuple = (4,5,6)
+print(atuple+btuple)
+
+#元祖和列表的相互转换
+print(alist+list(btuple))
+print(atuple+tuple(blist))
+
