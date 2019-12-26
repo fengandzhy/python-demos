@@ -4,7 +4,7 @@
 s1 = "原样输出：{first!s}  调用repr函数：{first!r}  输出Unicode编码：{first!a}"
 print(s1.format(first = "中"))
 
-s1 = "原样输出：{first:s}  调用repr函数：{first!r}  输出Unicode编码：{first!a}"
+s1 = "原样输出：{first:s}  调用repr函数：{first!r}  输出Unicode编码：{first!a}" 
 print(s1.format(first = "中"))
 
 s3 = "十进制：{num}  二进制：{num:b} 八进制：{num:o}  十六进制：{num:x}"
