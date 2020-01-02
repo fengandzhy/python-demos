@@ -1,6 +1,6 @@
 '''
 Created on 2020年1月1日
-
+求从1到100的数字中所有能既能被3整除，又能被5整合的数字有哪些
 @author: Ellite Service
 '''
 numbers = []
