@@ -34,7 +34,12 @@ cars = [['BMW', 8.5], ['BENS', 8.3], ['AUDI', 7.9]]
 dict5 = dict(cars)
 print(dict5)
 
-items = [['Bill',"4321"],("Mike","7891"),['John','4567']]
-d = dict(items)
-print(d)
 
+'''
+指定关键字来创建字典，此时关键字不能为表达式，也即是说spinach和cabbage 不能是变量
+key = 'name'
+info = dict(key = 'cold')
+这样无效，info 还是# {'key': 'cold'}
+'''
+dict6 = dict(spinach = 1.39, cabbage = 2.59)
+print(dict6) # {'spinach': 1.39, 'cabbage': 2.59}
