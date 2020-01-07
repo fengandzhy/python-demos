@@ -18,3 +18,14 @@ print(score)
 
 score['语文'] = 86
 print(score)
+
+'''
+删除某个键
+'''
+del score['语文']
+print(score)
+
+dict1 = {(2,3,4):"abc"}
+print(dict1[(2,3,4)])
+
+
