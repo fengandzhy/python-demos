@@ -3,7 +3,8 @@ s1 = 'hello'
 print(s1)
 s2 = "hello"
 print(s2)
-s3 = '''2024
+# 三引号创建多行字符串
+s3 = '''2024 
 hello
 world'''
 print(s3)
